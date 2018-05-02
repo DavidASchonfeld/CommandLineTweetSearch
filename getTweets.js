@@ -15,6 +15,20 @@ var tweetCount = 5; //This is the default value that will be used if the user do
 
 // Code That is Run When the Script Starts
 
+// Error Handling for Keys and Secrets
+if(key == "" && secret == ""){
+  console.log("ERROR: The \"key\" and \"secret\" values are both blank. These values are needed to allow this program to access Twitter's API. In order to obtain these values, you will have to create your own Twitter developer account and then click \"Create New App\" in order to obtain the specific values to use for your copy of this getTweets.js program.")
+  return
+} else if (key == "") {
+  console.log("ERROR: The \"key\" value is blank.")
+  return
+} else if (secret == ""){
+  console.log("ERROR: The \"secret\" value is blank.")
+  return
+}
+//If the key AND the secret are not blank, continue through the script
+
+
 // Process Command Line Values
 
 // Command Line Values - Error Catching
