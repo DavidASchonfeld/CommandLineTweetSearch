@@ -11,6 +11,7 @@ Usage:
 <br />```node getTweets.js @username {Number of Tweets to Obtain}");```
 <br />Example:
 <br />```node getTweets.js @github 10```
+<br />
 <br />Notes Regarding "Number of Tweets to Obtain":
  - If left blank, the number 5 will be used.
  - A maximum of 200 tweets can be obtained each time this command is called. 
