@@ -12,8 +12,8 @@ Usage:
 <br />Example:
 <br />```node getTweets.js @github 10```
 <br />Notes Regarding "Number of Tweets to Obtain":
-<br />  If left blank, the number 5 will be used.
-<br />  A maximum of 200 tweets can be obtained each time this command is called. 
+ - If left blank, the number 5 will be used.
+ - A maximum of 200 tweets can be obtained each time this command is called. 
 <br /> 
  
 ### My Decisions
