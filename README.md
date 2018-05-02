@@ -6,6 +6,16 @@ In order to use this tool, you must have:
 <br />--Node.js and the node package "request" installed.
 <br />
  
+### Usage Details
+Usage:
+<br />```node getTweets.js @username {Number of Tweets to Obtain}");```
+<br />Example:
+<br />```node getTweets.js @github 10```
+<br />Notes Regarding "Number of Tweets to Obtain":
+<br />  If left blank, the number 5 will be used.
+<br />  A maximum of 200 tweets can be obtained each time this command is called. 
+<br /> 
+ 
 ### My Decisions
 When the user does not specify a certain username on the command line, the program will print a usage statement instead of using a default username. 
 <br />
@@ -19,15 +29,6 @@ When the user does not specify a certain username on the command line, the progr
 <br /> 
 <br />If no tweets are found for a certain user, this tool will state an appropriate message. 
 <br />
-<br />I have also decided to include error messages.  
-<br />
+<br />I have also decided to include error messages.
 
-### Usage Details
-Usage:
-<br />```node getTweets.js @username {Number of Tweets to Obtain}");```
-<br />Example:
-<br />```node getTweets.js @github 10```
-<br />Notes Regarding "Number of Tweets to Obtain":
-<br />  If left blank, the number 5 will be used.
-<br />  A maximum of 200 tweets can be obtained each time this command is called. 
 
