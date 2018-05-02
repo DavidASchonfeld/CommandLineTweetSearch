@@ -2,8 +2,8 @@
 
 ### IMPORTANT - Requirements
 In order to use this tool, you must have: 
-<br />--"key" and "secret" values from your own Twitter Developer Account. Create an app inside your account to get specific values for your copy of getTweets.js
-<br />--Node.js and the node package "request" installed
+<br />--"key" and "secret" values from your own Twitter Developer Account. Create an app inside your account to get specific values for your copy of getTweets.js. Then, paste these values into their corresponding variables inside getTweets.js.
+<br />--Node.js and the node package "request" installed.
 <br />
  
 ### My Decisions
