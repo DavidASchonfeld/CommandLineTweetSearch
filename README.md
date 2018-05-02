@@ -3,7 +3,7 @@
 ### IMPORTANT - Requirements
 In order to use this tool, you must have: 
 <br />--"key" and "secret" values from your own Twitter Developer Account. Create an app inside your account to get specific values for your copy of getTweets.js
-<br />--Node.js and the node package "request" installed.
+<br />--Node.js and the node package "request" installed
 <br />
  
 ### My Decisions
@@ -20,7 +20,6 @@ When the user does not specify a certain username on the command line, the progr
 <br />If no tweets are found for a certain user, this tool will state an appropriate message. 
 <br />
 <br />I have also decided to include error messages.  
-<br />
 <br />
 
 ### Usage Details
