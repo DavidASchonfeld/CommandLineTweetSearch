@@ -1,12 +1,10 @@
 #Tweet Collector
 
-IMPORTANT NOTE: In order to use this tool, you must have:
---"key" and "secret" values from your own Twitter Developer Account. Create an app inside your account to get specific values for your copy of getTweets.js
+IMPORTANT NOTE: In order to use this tool, you must have: 
+<br />--"key" and "secret" values from your own Twitter Developer Account. Create an app inside your account to get specific values for your copy of getTweets.js
+<br />--Node.js and the node package "request" installed.
  
---Node.js and the node package "request" installed.
- 
- 
- 
+  
 My Decisions:
 
 When the user does not specify a certain username on the command line, the program will print a usage statement instead of using a default username. 
@@ -27,16 +25,12 @@ I have also decided to include error messages.
  
  
  
-Usage:
-
-  node getTweets.js @username {Number of Tweets to Obtain}"); 
-Example:
-
-  node getTweets.js @gofooda 10
-  
-Notes Regarding "Number of Tweets to Obtain":
-
-  If left blank, the number 5 will be used.
-  
-  A maximum of 200 tweets can be obtained each time this command is called. 
+<br />Usage:
+<br />  node getTweets.js @username {Number of Tweets to Obtain}"); 
+<br />Example:
+<br />
+<br />  node getTweets.js @gofooda 10
+<br />Notes Regarding "Number of Tweets to Obtain":
+<br />  If left blank, the number 5 will be used.
+<br />  A maximum of 200 tweets can be obtained each time this command is called. 
 
